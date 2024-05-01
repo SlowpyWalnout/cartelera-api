@@ -32,7 +32,6 @@ body {
 .contenedor .pelicula .poster {
 	width: 100%;
 	margin-bottom: 10px;
-	border-radius: 15px;
 }
 
 .paginacion {
@@ -65,4 +64,13 @@ body {
 
 .paginacion button:hover {
 	background: #137c32;
+}
+.pelicula{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 10px;
 }
